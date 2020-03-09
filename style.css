@@ -2,3 +2,422 @@
 	font-family: Montserrat;
 	font-weight: normal;
 }
+body{
+	max-width: 1440px;
+	min-width: 320px;
+	margin: 0 auto;
+	padding: 0;
+}
+
+header{
+	display:flex;
+	justify-content: space-between;
+	padding: 22px 42px;
+}
+p{
+	margin: 0;
+	padding: 0;
+}
+a {
+	text-decoration: none;
+	color: #000000;
+}
+.section-one__car-img_ipad{
+	display: none;
+}
+
+.tesla-logo{
+	width: 166px;
+	height: 51px;
+	flex: 1;
+}
+.header__nav{
+	flex: 4.6;
+	display: flex;
+	margin: 18px 22vw 0 17.8vw;
+}
+.menu{
+	flex: 1.5;
+	display: flex;
+}
+.menu__burger{
+	margin-top: 2px;
+}
+header a{
+	font-size: 15px;
+	font-weight: 600;
+	color: #000;
+	text-decoration: none;
+	line-height: 18px;
+	min-width: 70px;
+	margin-top: 1px;
+	}
+header nav{
+	margin: 18px 0 0 0;
+}
+.header__item_active{
+	color: #E51937; 
+	margin-right: 14.4%;
+
+}
+.header__item_active::after{
+	content: url(img/Vector_upper.svg);
+	display: block;
+	margin-top: -5px;
+
+}
+.header__item_2{
+	white-space: nowrap;
+	word-wrap: normal;
+	margin-right: 4.9%;
+
+}
+.header__item_3{
+	margin-right: 9.7%;
+}
+.header__item_4{
+	margin-right: 12.8%;
+}
+.menu__item{
+	margin-left: 10.8%;
+}
+.menu__burger_img{
+	margin-left: 11.4%;
+	padding-right: 82px;
+}
+.section-one__title{
+	font-weight: 600;
+	font-size: 90px;
+	line-height: 110px;
+	display: flex;
+	justify-content: center;
+	margin: 37px 0 0 0;
+}
+.section-one__subtitle{
+	font-size: 15px;
+	font-weight: 500;
+	margin: -9px 0 0 0;
+	display: flex;
+	justify-content: center;
+}
+.section-one__car-img{
+	width: 100%;
+	margin-top: -118px;
+}
+
+.section-one__wrapper{
+	display: flex;
+	justify-content: center;
+	margin-top: 24px;
+}
+.specifications{
+	display: flex;
+}
+.specifications__item{
+	font-size: 20px;
+	line-height: 24px;
+	font-weight: 600;
+}
+.Quantity{
+	font-weight: 600;
+	font-size: 35px;
+	line-height: 43px;
+	padding-right: 1px;
+}
+
+.specifications__text{
+	font-size: 12px;
+	line-height: 15px;
+	position: relative;
+	right: 94px;
+	top: 42px;
+	
+}
+.specifications__speed{
+	margin: 0 0 0 0px;
+	display: flex;
+	min-width: 233.5px;
+}
+.specifications__speed::before {
+	content: url(img/speed.svg);
+	float: left;
+	background: url(img/speed__ellipse.svg) no-repeat 16px 10px;
+	margin-right: 10px;
+	margin-top: 12px;
+}
+.specifications__distans{
+	display: flex;
+	min-width: 207.4px;
+}
+.specifications__distans::before{
+	content: url(img/Road_icon.svg);
+	margin-top: 8px;
+	margin-right: 5px;
+}
+.text__dist{
+	margin-left: -3px;
+	margin-top: -1px;
+}
+.test-drive{
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 13px;
+	line-height: 16px;
+	text-align: center;
+	text-transform: uppercase;
+	margin: 12px 0 0 49px;
+	text-shadow: 0 3px 4px rgba(0, 0, 0, 0.4);
+	min-width: 110.7px;
+}
+.test-drive::before{
+	content: url(img/steering-wheel.svg);
+	position: relative;
+	top: 6px;
+	right: 7px;
+	filter: drop-shadow( 0px 3px 4px rgba(0, 0, 0, 0.4) );
+}
+.order{
+	color: #E51937;
+	border: 2px solid #E51937;
+	margin: 0;
+	align-self: baseline;
+	font-weight: bold;
+	font-size: 13px;
+	line-height: 16px;
+	text-align: center;
+	text-transform: uppercase;
+	padding: 10px 41px;
+	margin-left: 40px;
+	margin-top: 10px;
+}
+.section-one__arrow{
+	text-align: center;
+	margin-top: 21px;
+}
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1335px) {
+	.header__nav{
+	margin: 18px 12vw 0 9vw;
+	}
+}
+@media screen and (max-width: 1205px) {
+	.header__nav{
+	margin: 18px 6vw 0 6vw;
+	}
+	.header__item_2{
+	margin-right: 4.9%;
+	}
+	.header__item_3{
+	margin-right: 4.2%;
+	}
+	.header__item_4{
+	margin-right: 6.4%;
+	}
+	.menu__item{
+	margin-left: 5.4%;
+	}
+	.header__item_active{
+	margin-right: 9.4%;
+	}
+	header{
+		padding: 22px 32px;
+	}
+	.section-one__car-img{
+	margin-top: -68px;
+}
+@media screen and (max-width: 1020px) {
+	.header__nav{
+	margin: 18px 3vw 0 3vw;
+	}
+	.header__item_2{
+	margin-right: 4.9%;
+	}
+	.header__item_3{
+	margin-right: 4.2%;
+	}
+	.header__item_4{
+	margin-right: 6.4%;
+	}
+	.menu__item{
+	margin-left: 5.4%;
+	}
+	.header__item_active{
+	margin-right: 2.4%;
+	}
+	header{
+		padding: 22px 22px;
+	}
+}
+@media screen and (max-width: 920px) {
+	header{
+		padding: 22px 2px;
+	}
+		.menu__burger_img{
+			padding-right: 10px;
+		}
+	}
+@media screen and (max-width: 830px){
+	.header__nav{
+	margin: 18px 5px 0 5px;
+	}
+	.header__item_2{
+	margin-right: 5px;
+	}
+	.header__item_3{
+	margin-right: 5px;
+	}
+	.header__item_4{
+	margin-right: 5px;
+	}
+	.menu__item{
+	margin-left: 5px;
+	}
+	.header__item_active{
+	margin-right: 5px;
+	}
+	.test-drive{
+	margin: 12px 0 0 9px;
+	}
+	.order{
+	padding: 10px 41px;
+	margin-left: 10px;
+}
+@media screen and (max-width: 768px){
+	.header__nav , .menu__item{
+		display: none;
+	}
+		header{
+		display: flex;
+		justify-content: space-between;
+		}
+		.menu{
+			flex: 2;
+			justify-content: flex-end;
+		}
+		.tesla-logo{
+			flex: 1;
+			justify-content: flex-start;
+			max-width: 200px;
+			margin-top: 2px;
+			/*height: 51px;*/
+		}
+		.menu__burger_img{
+			width: 35.23px;
+			height: 22.02px;
+
+		}
+		header{
+		padding: 22px 0;
+		}
+		.header__nav{
+		margin: 17px 0 0 0;
+		}
+		.menu__burger_img{
+		padding-left: 0px;
+		margin-left: 0;
+		}
+		.menu__burger{
+		margin-top: 0;
+		}
+		.section-one__title{
+		margin: 60px 0 0 0;
+		}
+		.section-one__car-img{
+			display: none;
+		}
+		.section-one__car-img_ipad{
+			display: block;
+			position: relative;
+			top: -25px;
+		}
+		.section-one__wrapper{
+			display: block;
+		}
+		.specifications{
+			display: flex;
+
+			position: relative;
+			top: -11px;
+			left: 140px;
+			margin-bottom: 43px;
+		}
+		.specifications__speed{
+
+		}
+		.specifications__distans{
+			margin-left: 10px;
+
+		}
+		.specifications__text{
+			right: 111px;
+			top: 60px;
+		}
+		.text__dist{
+			margin-left: -12px;
+			margin-top: -1px;
+		}
+		
+		.Quantity{
+			font-size: 50px;
+			line-height: 61px;
+		}
+		.Quantity_2{
+			position: relative;
+			top: -9px;
+			left: 5px;
+		}
+		.specifications__item{
+			text-align: center;
+		}
+		.specifications__speed::before {
+			content: url(img/speed_ipad.svg);
+			float: left;
+			background: url(img/Ellipse_ipad.svg) no-repeat 18px 17px;
+			margin-right: 20px;
+			margin-top: 12px;
+		}
+		.specifications__distans::before{
+			content: url(img/Road_icon_ipad.svg);
+			margin-top: 8px;
+			margin-right: 15px;
+		}
+		.test-drive{
+			color: #E51937;
+			text-shadow: none;
+			font-weight: bold;
+			font-size: 16px;
+			line-height: 20px;
+			margin-left: 190px;
+			margin-right: 38px;
+		}
+		.test-drive::before{
+			content: url(img/steering-wheel_ipad.svg);
+			position: relative;
+			top: 8px;
+			right: 16px;
+			filter: drop-shadow( 0px 0px 0px rgba(0, 0, 0, 0) );
+
+		}
+		.order{
+			color: #fff;
+			border: none;
+			margin: 0;
+			font-size: 16px;
+			line-height: 10px;
+			padding: 18px 64px;
+			margin-left: 0px;
+			margin-top: 10px;
+			background-color: #E51937;
+		}
+		.section-one__arrow{
+			margin-top: 76px;
+		}
+	}

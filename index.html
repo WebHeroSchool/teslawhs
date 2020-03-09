@@ -2,45 +2,50 @@
 <html>
 <head>
 	<meta charset="UTF-8">
-	<link rel="stylesheet" href="fonts.css">
+	<meta name="viewport" content="initial-scale=1.0, width=device-width">
 	<link rel="stylesheet" href="style.css">
-			<title>Tesla</title>
+	<link rel="stylesheet" href="fonts.css">
+		<title>Tesla</title>
 </head>
 <body>
 	<header class="header">
-		<div class="tesla-logo"></div>
-		<nav>
-			<a href="#" class="header__item_active">model s</a>
-			<a href="#" class="header__item">Model X</a>
-			<a href="#" class="header__item">Model 3</a>
-			<a href="#" class="header__item header__item_margin">Roadster</a>
-			<a href="#" class="header__item header__item_margin">Energy</a>
+		<img src="img/Tesla-Wordmark-Red.svg" class="tesla-logo">
+		<nav class="header__nav">
+			<a href="#" class="header__item_active">Model S</a>
+			<a href="#" class="header__item_2">Model X</a>
+			<a href="#" class="header__item_3">Model 3</a>
+			<a href="#" class="header__item_4">Roadster</a>
+			<a href="#" class="header__item_5">Energy</a>
 		</nav>
 		<nav class="menu">
 			<a href="#" class="menu__item">Магазин</a>
 			<a href="#" class="menu__item">Войти</a>
-			<a href="#" class="menu__burger"></a>
+			<a href="#" class="menu__burger">
+				<img class="menu__burger_img" src="img/Vector.svg" alt="Burger-menu">
+			</a>
 		</nav>
 	</header>
 	<section class="section-one">
 		<h1 class="section-one__title">Model S</h1>
 		<p class="section-one__subtitle">Добро пожаловать в будущее!</p>
-		<img src="#" alt="Car" class="section-one__car-img">
+		<img src="img/Tesla logo + car.svg" alt="Car+logo" class="section-one__car-img">
+		<img src="img/Tesla logo + car_ipad.svg" alt="tesla-logo"class="section-one__car-img_ipad">
 		<div class="section-one__wrapper">
 			<div class="specifications">
 				<div class="specifications__speed">
-					<p class="specifications__item"><span class="Quantity">2,7</span> сек</p>
+					<p class="specifications__item"><span class="Quantity">2,7</span> <span class="Quantity_2">сек</span></p>
 					<p class= "specifications__text">0-100 км/час</p>
 				</div>
 				<div class="specifications__distans">
-					<p class="specifications__item"><span class="Quantity">632</span> км</p>
-					<p class= "specifications__text">запас хода</p>
+					<p class="specifications__item"><span class="Quantity">632</span> <span class="Quantity_2">км</span></p>
+					<p class= "specifications__text text__dist">запас хода</p>
 				</div>	
 			</div>
 			<a href="#" class="test-drive">тест драйв</a>
 			<a href="#" class="order">Заказать</a>
 		</div>
-		<div class="section-one__arrow"></div>
+		<div class="section-one__arrow"><img src="img/vector_down.svg" alt="arrow" class="arrow">
+		</div>
 	</section>
 	<section class="section-two">
 		<h2 class="interior">Model S</h2>
@@ -135,3 +140,4 @@
 	</footer>
 </body>
 </html>
+
