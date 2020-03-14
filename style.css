@@ -460,28 +460,20 @@ section{
 		padding-left: 40px;
 	}
 	.section1__specifications > div{
-		min-width: 128px; /*!!!!!!*/
+		min-width: 128px;
 		margin-right: 0px;
 	}
 	.specifications__dist{
-		margin-left: 0px;   /*!!*/
+		margin-left: 0px;
 	}
 	.specifications__speed::before{
 		content: url(img/Speed-mobile.svg);
-		/*position: relative;
-		float: left;
-		top: 10px;
-		margin: 0 10px 0 0;*/
 	}
 	.specifications__dist::before{
 		content: url(img/distance-mobile.svg);
-		/*position: relative;
-		float: left;
-		top: 10px;
-		margin: 0px 10px 0 0;*/
 	}
 	.specifications__link{
-		margin: 14px 0 0 0; /*!!!!*/
+		margin: 14px 0 0 0;
 	}
 	.link__test-drive{
 		padding: 0;
@@ -492,8 +484,6 @@ section{
 	}
 	.link__test-drive::before{
 		content: url(img/steering-wheel-mobile.svg);
-		/*top: 6px;
-		right: 7px;*/
 	}
 	.link__order{
 		padding: 9px 32px;
