@@ -13,7 +13,6 @@
 			<div class="header__logo">
 				<a href="https://www.tesla.com/" class="logo__link"></a>
 			</div>
-			<div class="header__empty_left"></div>
 			<div class="header__model_menu">
 				<a href="#" class="model_menu__link_active">Model S</a>
 				<a href="#" class="model_menu__link">Model X</a>
@@ -21,43 +20,143 @@
 				<a href="#" class="model_menu__link">Roadster</a>
 				<a href="#" class="model_menu__link">Energy</a>
 			</div>
-			<div class="header__empty_right"></div>
-			<div class="header__links">
-				<a href="" class="header__links_link">Магазин</a>
-				<a href="" class="header__links_link">Войти</a>
-			</div>
-			<div class="header__burger">
-				<a href="#" class="header__burger_menu"></a>
+			<div class="header__nav">
+				<a href="" class="nav__item">Магазин</a>
+				<a href="" class="nav__item">Войти</a>
+				<div class="nav__item_burger">
+					<a href="#" class="burger__link"></a>
+				</div>
 			</div>
 		</div>
 	</header>
 	<section class="section1">
 		<h1 class="section1__title">Model S</h1>
 		<p class="section1__subtitle">Добро пожаловать в будущее!</p>
-		<div class="section1__logo"></div>
-		<div class="section1__car">
+		<div class="section1__logo">
 			<img src="img/section1-сar.svg" alt="Tesla" class="car__tesla">
 		</div>
 		<div class="section1__specifications">
-			<div class="specifications__speed">
-				<p class="specifications__item"><span class="Quantity">2,7</span><span class="Quantity_2">сек</span></p>
-				<p class= "specifications__text">0-100 км/час</p>
-			</div>
-			<div class="specifications__dist">
-				<p class="distans__item"><span class="Quantity">632</span><span class="Quantity_2">км</span></p>
-				<p class= "specifications__text text__dist">запас хода</p>
-			</div>
-			<div class="specifications__link test">
-				<a href="#" class="link__test-drive">тест драйв</a>
-			</div>
-			<div class="specifications__link order">
-				<a href="#" class="link__order">Заказать</a>
+			<div class="specifications__wrap speed_dist">
+				<div class="specifications__wrap speed">
+					<div class="speed__logo">
+					</div>
+					<div class="specifications__item">
+						<p class="item__text"><span class="Quantity">2,7</span><span class="Quantity_2">сек</span></p>
+						<p class= "specifications__text">0-100 км/час</p>
+					</div>
+				</div>
+				<div class="specifications__wrap dist">
+					<div class="dist__logo">
+					</div>
+					<div class="specifications__item">
+						<p class="item__text"><span class="Quantity">632</span><span class="Quantity_2">км</span></p>
+						<p class= "specifications__text">запас хода</p>
+					</div>
+				</div>
+			</div>		
+			<div class="specifications__item_link">
+				<div class="item_link__testdrive">
+					<div class="testdrive__logo">
+					</div>
+					<a href="#" class="specifications__testdrive">тест драйв</a>
+				</div>
+				<button class="specifications__order">заказать</button>
 			</div>
 		</div>
-		<div class="section__arrow">
+		<div class="section1__arrow">
 			<a href="#" class="arrow"><img src="img/arrow.svg" alt="arrow-down"></a>
 		</div>
 	</section>
-
-</body>	
-</html>
+	<section class="section-two">
+		<h2 class="interior">Model S</h2>
+		<div class="car-about">
+			<h3 class="car-about__title">будущее вождения</h3>
+			<p class="car-about__text">Модель S обладает лучшей в своем классе вместимостью: в машине поместится до пяти взрослых и двух детей. Оснащена современным 17-дюймовым сенсорным экраном. Усовершенствованная шумовая инженерия создает динамику звука, сравнимую со студией звукозаписи, а стеклянная крыша обеспечивает просторный интерьер для каждого пассажира.</p>
+			<div class="car-about__specif">
+				<div class="specif__display">
+					<span class="car-about__value">17</span>
+					<p class="specif__title">дюймов</p>
+					<p class="specif__subtitle">большой дисплей</p>
+				</div>
+				<div class="specif__wifi">
+					<p class="specif__title">Беспроводное обновление ПО</p>
+					<p class="specif__subtitle">Повышенная функциональность</p>
+				</div>
+				<div class="specif__bag">
+					<span class="car-about__value">894</span>
+					<p class="specif__title">литра</p>
+					<p class="specif__subtitle">Объем грузового пространства</p>
+				</div>
+				<div class="specif__link-container">
+					<a href="#" class="link-container_info">узнать больше</a>
+					<a href="#" class="link-container_order">заказать</a>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="section-three">
+		<div class="car-about">
+			<h3 class="car-about__title">Самый безопасный автомобиль в мире</h3>
+			<p class="car-about__text">Модель S достигла наивысшей оценки безопасности любого автомобиля, когда-либо испытанного, и установила рекорд по наименьшей вероятности травмы пассажиров - от несчастных случаев на переднем, боковом, заднем сидении и в ДТП с переворотом авто.</p>
+			<div class="save-rating-wrapper">
+				<h3 class="car-about__title">Оценка защиты:</h3>
+				<p class="save-rating">
+					<span class="save-rating__desc">спереди</span>
+					<span class="save-rating__star"></span>
+					<span class="save-rating__star"></span>
+					<span class="save-rating__star"></span>
+					<span class="save-rating__star"></span>
+					<span class="save-rating__star"></span>
+				</p>
+				<p class="save-rating">
+					<span class="save-rating__desc">сбоку</span>
+					<span class="save-rating__star"></span>
+					<span class="save-rating__star"></span>
+					<span class="save-rating__star"></span>
+					<span class="save-rating__star"></span>
+					<span class="save-rating__star"></span>
+				</p>
+				<p class="save-rating">
+					<span class="save-rating__desc">сбоку</span>
+					<span class="save-rating__desc_small">(стойка)</span>
+					<span class="save-rating__star"></span>
+					<span class="save-rating__star"></span>
+					<span class="save-rating__star"></span>
+					<span class="save-rating__star"></span>
+					<span class="save-rating__star"></span>
+				</p>
+				<p class="save-rating">
+					<span class="save-rating__desc">водитель</span>
+					<span class="save-rating__star"></span>
+					<span class="save-rating__star"></span>
+					<span class="save-rating__star"></span>
+					<span class="save-rating__star"></span>
+					<span class="save-rating__star"></span>
+				</p>
+				<p class="save-rating">
+					<span class="save-rating__desc">пассажир</span>
+					<span class="save-rating__star"></span>
+					<span class="save-rating__star"></span>
+					<span class="save-rating__star"></span>
+					<span class="save-rating__star"></span>
+					<span class="save-rating__star"></span>
+				</p>
+				<div class="save-rating__result">
+					<p class="result__title">5 звезд</p>
+					<p class="result__subtitle">безопасности</p>
+				</div>
+				<div class="specif__link-container">
+					<a href="#" class="link-container_info">узнать больше</a>
+					<a href="#" class="link-container_order">заказать</a>
+				</div>
+			</div>
+		</div>
+	</section>
+	<footer>
+		<p class="footer__text">разработано</p>
+		<a href="#" class="footer__logo">
+			<img src="#" alt="WebHeroSchool" class="footer__logo">
+		</a>
+	</footer>
+</body>
+</html> 
