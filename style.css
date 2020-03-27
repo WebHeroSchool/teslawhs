@@ -15,9 +15,9 @@ p{
 }
 html{
 	max-width: 3840px;
+
+	justify-content: space-around;
 }
-
-
 
 
 /***************Header****************/
